@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="tests" name="Failed suite [Integration Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="EdgeBrowser Test(failed)">
+    <parameter name="browser" value="EDGE"/>
+    <classes>
+      <class name="DDT.Parameters_prgm">
+        <methods>
+          <include name="google_India" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- DDT.Parameters_prgm -->
+    </classes>
+  </test> <!-- EdgeBrowser Test(failed) -->
+</suite> <!-- Failed suite [Integration Suite] -->

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Integration Suite">
+  <test thread-count="5" name="Integration Test">
+    <classes>
+     
+      <class name="testNG.priority2"/>
+      <class name="testNG.One"/>
+      <class name="testNG.priority1"/>
+     
+      <class name="testNG.timeout"/>
+      <class name="testNG.priority"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
